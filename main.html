@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div class="rows">
+      <div data-key="65" class="key key_a">
+        <kbd>A</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="83" class="key key_s">
+        <kbd>S</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="68" class="key key_d">
+        <kbd>D</kbd>
+        <span class="sound">hi-hat</span>
+      </div>
+      <div data-key="70" class="key key_f">
+        <kbd>F</kbd>
+        <span class="sound">open-hat</span>
+      </div>
+    </div>
+    <div class="rows">
+      <div data-key="71" class="key key_g">
+        <kbd>G</kbd>
+        <span class="sound">arp</span>
+      </div>
+      <div data-key="72" class="key key_h">
+        <kbd>H</kbd>
+        <span class="sound">perc</span>
+      </div>
+      <div data-key="74" class="key key_j">
+        <kbd>J</kbd>
+        <span class="sound">pulse</span>
+      </div>
+      <div data-key="75" class="key key_k">
+        <kbd>K</kbd>
+        <span class="sound">sfx</span>
+      </div>
+    </div>
+  </div>
+
+  <audio data-key="65" src="GB Drums/kick (1).wav"></audio>
+  <audio data-key="83" src="GB Drums/snare (2).wav"></audio>
+  <audio data-key="68" src="GB Drums/hihat (6).wav"></audio>
+  <audio data-key="70" src="GB Drums/openhat (1).wav"></audio>
+  <audio data-key="71" src="GB Drums/arp (1).wav"></audio>
+  <audio data-key="72" src="GB Drums/perc (2).wav"></audio>
+  <audio data-key="74" src="GB Drums/pulse (1).wav"></audio>
+  <audio data-key="75" src="GB Drums/sfx (1).wav"></audio>
+
+
+  <script src="main.js"></script>
+
+
+</body>
+</html>
